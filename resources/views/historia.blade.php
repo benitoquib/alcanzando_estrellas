@@ -77,7 +77,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container">
-                        <h3>ASOCIACION ALCANZANDO ESTRELLAS – ANTES PASTORAL DE LA NIÑEZ</h3>
+                        <h3>ASOCIACIÓN ALCANZANDO ESTRELLAS – ANTES PASTORAL DE LA NIÑEZ</h3>
                         <p>En 1994 se inició como institución de la iglesia católica, en busca de respuesta a las necesidades de los niños de la calle que ninguna institución atendía. Con terapia de juego, refuerzo positivo y reflexiones.  Este grupo se dejó de atender en mayo 1997.</p>
                         <p>De Inmediato se apoyó la educación formal a niñez de familias en pobreza y pobreza extrema para contrarrestar y prevenir la problemática de la calle. El grupo se fue incrementando y en 1997 se decide concentrar esfuerzos en la atención del grupo de prevención, como se le llamo a los niños escolarizados de familias en pobreza y pobreza extrema que asistían a escuelas públicas. </p>
                         <p>2001 al 2004 se ejecuta proyecto Brocoly para contrarrestar el trabajo infantil en Chilasco Baja Verapaz. </p>
