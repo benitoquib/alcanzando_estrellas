@@ -18,4 +18,8 @@ class PaginasControlador extends Controller
     public function historia(){
     	return view('historia');
     }   
+
+    public function apoyo(){
+        return view('apoyo');
+    }
 }

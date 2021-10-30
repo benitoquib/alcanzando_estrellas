@@ -19,6 +19,8 @@
                         </ul>
                         
                     </div> <!-- end of text-container -->
+
+                    
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     

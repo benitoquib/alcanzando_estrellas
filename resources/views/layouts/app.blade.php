@@ -85,7 +85,7 @@
                 <!-- end of dropdown menu -->
 
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="/registrarDonacion">DONACIONES</a>
+                    <a class="nav-link page-scroll" href="/apoyar#slide-main">DONACIONES</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
