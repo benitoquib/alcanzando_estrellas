@@ -14,30 +14,6 @@
     </header> <!-- end of ex-header -->
     <!-- end of header -->
 
-    <div class="inner-sec-layer">                   
-                    <div class="row middle-grids">
-                        <div class="col-lg-6 col-md-6 service-in text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="fa fa-desktop mb-4"></span>
-                                    <h5 class="card-title text-uppercase">Mision</h5>
-                                    <p class="card-text">Proveemos a nuestros participantes y cooperantes servicios de excelencia, que contribuyan al desarrollo integral de las familias participantes para que sean capaces de mejorar su calidad de vida.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6 col-md-6 service-in text-center ">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="fa fa-desktop mb-4"></span>
-                                    <h5 class="card-title text-uppercase">Vision</h5>
-                                    <p class="card-text">Ser una organización con sede en Cobán, Alta Verapaz, sostenible e integra; impulsando proyectos en beneficio de la niñez y adolescencia, con calidad humana, en constante mejoramiento; reconocida por la excelencia y aptitud de servicio, que inciden en el cambio de vida de las personas más vulnerables.</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
-
-
     <!-- historia-->
     <div class="ex-basic-2">
         <div class="container">
@@ -78,7 +54,12 @@
                         <b>Participación e incidencia política:</b> se ha participado en diferentes redes o grupos de trabajo: como.  1994 en el comité pro-convención; 1997 y 1998 en movimiento social por los derechos de la niñez, foro de la niñez de la calle, grupo Trabajo infantil (ONG´s, que trabajaban con la niñez trabajadora); 2000 al 2007 Miembros de Coordinadora de ONG´s de A.V.; 2001 a la fecha Miembros del Centro de Justicia de A.V. en Comisión  de Prevención de la Violencia intrafamiliar ; 2004 al 2005 miembro de la Junta de Protección de la niñez y Juventud adscrita a D.D.H.H.; 2006 al 2008 Miembro de ACIEAV,  Alianza Cooperativa para la Incidencia en Educación en A.V.; 2007 a la fecha Miembro de la Red de Protección de la Niñez y Juventud de A.V.
                         En 2012 como una estrategia de fortalecimiento institucional, se inician trámites para la conformación en asociación lo que se logra en 2014, por lo que en enero de 2015 se inició el trabajo como Asociación Alcanzando Estrellas, pero con la misma población objetivo, los mismos, fines y mística de trabajo.
                         </p>
-                               
+                        <p>Del 2013,  iniciamos proyecto piloto con técnicas activas de exteriorización, con madres y niños,  2014 en Octubre a Diciembre, se hizo sistematización de aplicación de dichas técnicas para establecer  logros, 2015 se inicio ya el trabajo con técnicas activas en Psicologia, durante  el ciclo normal, con madres, niñas, niños y 2016 con padres.</p>
+                        
+                        <p>En 2018, se sistematizo el modelo de atención de Asaes,</p>
+                        <p>En 2020, al suspender las clases presenciales las escuelas e institutos públicos, en Abril, iniciamos con monitoreo  telefónico a las niñas y niños, como animación a las madres, nos cambiamos de dirección y en  Agosto iniciamos la atención presencial en pequeños grupos de niñas y niños, centrándonos en 1º y 2º. Primaria, los 6º. Primaria y los 3º. básico, cumpliendo con las medidas de bioseguridad. </p>
+
+                        <p>2021, preparación de niños de 6º. Primaria y 3º. Básico para optar a su examen de admisión en los diferentes establecimientos, en Febrero curso de manejo de plataformas e internet, para reforzar conocimientos en tecnología a niñas y niños de básico y Diversificado, en Marzo nuevamente cambiamos de dirección y Marzo: iniciamos reforzamiento siempre en grupos  y pequeños por las mañanas, observando las medidas de bioseguridad y la escuela de madres en grupos pequeños por las tardes de Martes a viernes, para cumplir con las medidas de bioseguridad.</p>                               
                 </div> <!-- end of col-->
             </div> <!-- end of row -->
         </div> <!-- end of container -->

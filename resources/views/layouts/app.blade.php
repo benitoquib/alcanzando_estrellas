@@ -23,6 +23,7 @@
     <link href="{{asset('css/swiper.css')}}" rel="stylesheet">
     <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
     <link href="{{asset('css/styles.css')}}" rel="stylesheet">
+    <link href="{{asset('css/theme.css')}}" rel="stylesheet">
     
     <!-- Favicon  -->
     <link rel="icon" href="images/asaesico.png">
@@ -79,7 +80,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/historia"><span class="item-text">RESEÑA HISTORICA</span></a>
                         <div class="dropdown-items-divide-hr"></div>
-                        <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">[OTROS DATOS...]</span></a>
+                        <a class="dropdown-item" href="/acerca"><span class="item-text">ACERCA DE</span></a>
                     </div>
                 </li>
                 <!-- end of dropdown menu -->

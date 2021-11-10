@@ -25,38 +25,39 @@
                 <div class="col-lg-6">
                     
                     <!-- formulario registro-->
-                    <form id="registroform" data-toggle="validator" data-focus="false">
+                    <form method="post" id="registroform" data-toggle="validator" data-focus="false" action="views">
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="cnombre" required>
-                            <label class="label-control" for="cnombre">Nombres</label>
+                            <input type="text" class="form-control-input" id="primer_nombre" name="primer_nombre" required>
+                            <label class="label-control" for="primer_nombre">Nombres</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control-input" id="capellidos" required>
-                            <label class="label-control" for="capellidos">Apellidos</label>
+                            <input type="text" class="form-control-input" id="primer_apellido" name="primer_apellido" required>
+                            <label class="label-control" for="primer_apellido">Apellidos</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control-input" id="cemail" required>
-                            <label class="label-control" for="cemail">Email</label>
+                            <input type="email" class="form-control-input" id="email" name="email" required>
+                            <label class="label-control" for="email">Email</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="address" class="form-control-input" id="cdireccion" required>
-                            <label class="label-control" for="cdireccion">Direccion</label>
+                            <input type="address" class="form-control-input" id="direccion" name="direccion" required>
+                            <label class="label-control" for="direccion">Direccion</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <input type="fa-phone" class="form-control-input" id="cphone" required>
-                            <label class="label-control" for="cphone">Telefono</label>
+                            <input type="fa-phone" class="form-control-input" id="telefono" name="telefono" >
+                            <label class="label-control" for="telefono">Telefono</label>
                             <div class="help-block with-errors"></div>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control-textarea" id="ccomentario" required></textarea>
-                            <label class="label-control" for="ccomentario">Comentario</label>
+                            <textarea class="form-control-textarea" id="comentario"></textarea>
+                            <label class="label-control" for="comentario">Comentario</label>
                             <div class="help-block with-errors"></div>
-                        </div>
+                        </div> 
                         
+                        {{csrf_field()}}
                         <div class="form-group">
                             <button type="submit" class="form-control-submit-button">ACEPTAR</button>
                         </div>

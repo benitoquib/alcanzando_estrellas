@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
+
 
 class PaginasControlador extends Controller
 {
@@ -22,4 +24,10 @@ class PaginasControlador extends Controller
     public function apoyo(){
         return view('apoyo');
     }
+
+    public function acerca(){
+        return view('acerca');
+    }
+
+    
 }

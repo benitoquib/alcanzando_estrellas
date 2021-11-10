@@ -216,44 +216,44 @@
 }
 /* Main Items */
 .cn-slide nav a[href="#slide-1"]{
-	background-image: url(../images/apoyo4.png);
+	background-image: url(../images/apoyoeconomico.jpg);
 }
 .cn-slide nav a[href="#slide-2"]{
-	background-image: url(../images/project-6.jpg);
+	background-image: url(../images/beca.png);
 }
 .cn-slide nav a[href="#slide-3"]{
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/objetos.jpg);
 }
 .cn-slide nav a[href="#slide-4"]{
 	background-image: url(../images/fondoapoyo-1.jpg);
 }
 .cn-slide nav a[href="#slide-5"]{
-	background-image: url(../images/2.jpg);
+	background-image: url(../images/inmuebles.jpg);
 }
 .cn-slide nav a[href="#slide-6"]{
-	background-image: url(../images/3.jpg);
+	background-image: url(../images/voluntariado.jpg);
 }
 
 /* Items and sub-items of slide 1*/
 .cn-slide nav a[href="#slide-1-1"],
 #slide-1-1 .cn-content {
-	background-image: url(../images/apoyo1.jpg);
+	background-image: url(../images/economico.jpg);
 }
 .cn-slide nav a[href="#slide-1-2"],
 #slide-1-2 .cn-content {
-	background-image: url(../images/apoyo3.jpg);
+	background-image: url(../images/economico2.jpg);
 }
 .cn-slide nav a[href="#slide-1-3"],
 #slide-1-3 .cn-content {
-	background-image: url(../images/apoyo4.png);
+	background-image: url(../images/publicidad.png);
 }
 .cn-slide nav a[href="#slide-1-4"],
 #slide-1-4 .cn-content {
-	background-image: url(../images/apoyo2.png);
+	background-image: url(../images/herencia.png);
 }
 .cn-slide nav a[href="#slide-1-5"],
 #slide-1-5 .cn-content {
-	background-image: url(../images/7.jpg);
+	background-image: url(../images/apadrinado.jpeg);
 }
 
 /* Items and sub-items of slide 2*/
@@ -266,19 +266,19 @@
 /* Items and sub-items of slide 3*/
 .cn-slide nav a[href="#slide-3-1"],
 #slide-3-1 .cn-content {
-	background-image: url(../images/12.jpg);
+	background-image: url(../images/materialescolar.jpg);
 }
 .cn-slide nav a[href="#slide-3-2"],
 #slide-3-2 .cn-content {
-	background-image: url(../images/13.jpg);
+	background-image: url(../images/ropa.jpg);
 }
 .cn-slide nav a[href="#slide-3-3"],
 #slide-3-3 .cn-content {
-	background-image: url(../images/14.jpg);
+	background-image: url(../images/viveres.png);
 }
 .cn-slide nav a[href="#slide-3-4"],
 #slide-3-4 .cn-content {
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/muebles.jpg);
 }
 
 
