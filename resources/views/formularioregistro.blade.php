@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-@section('content')
-
-    
+@section('content')  
     <!-- Contact -->
     <div id="contact" class="form-2">
         <div class="container">
@@ -26,8 +24,6 @@
                 <div class="col-lg-6">
                     <br>
                     
-
-
                     <!-- cuadro combinado para seleccionar usuario -->
                         <div class="btn-group">
                           <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -53,7 +49,7 @@
                                  </div>
                                 <div class="modal-body">
 
-                                    <form method="post" id="registrouserform" data-toggle="validator" data-focus="false" action="usuarios">
+                                    <form method="post" id="registrouserform" data-toggle="validator" data-focus="false" action="/usuarios">
                                         <table>
                                             <tr>
                                                 <td>
@@ -166,11 +162,23 @@
                       </div>
                       -->
                         <table>
+                            <!--
+                            <tr>
+
+                                <select name="tipodonacion" id="tipodonacion">
+                                    @foreach($usuarios as $usuario)
+                                        <option class="dropdown-item" href="#">{{$usuario->primer_nombre}}&nbsp;{{$usuario->segundo_nombre}}&nbsp;{{$usuario->primer_apellido}}</option>
+
+                                    @endforeach
+                                  <option value="r">Rojo</option> 
+                                </select>
+                            </tr>
+                                     -->
                             <tr>
                                 <td>
                                     <div class="form-group">
-                                        <input type="text" class="form-control-input" id="primer_nombre" name="primer_nombre" required>
-                                        <label class="label-control" for="primer_nombre">Primer Nombre</label>
+                                        
+                                        <label class="label-control" for="">{{$usuario->primer_nombre}}</label>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </td>
@@ -241,6 +249,24 @@
                         </table>
                         <table>
                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <input type="fa-phone" class="form-control-input" id="numero_boleta" name="numero_boleta" >
+                                        <label class="label-control" for="numero_boleta">No. de la boleta</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <input type="fa-phone" class="form-control-input" id="monto" name="monto" >
+                                        <label class="label-control" for="monto">Monto</label>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td colspan="2">
                                     <div class="form-group">
                                         <textarea class="form-control-textarea" id="comentario"></textarea>
@@ -249,6 +275,7 @@
                                     </div> 
                                 </td>
                             </tr>
+                            
                             <tr>
                                 <div class="form-group">
                                     <label for="comprobante">Cargar archivo</label>

@@ -13,7 +13,7 @@
         <div class="container">
 			<header>
 				<h1>Como Apoyar</span></h1>
-				<h2>Una frase chidorri</h2>
+				<h1>A continuación se presentan los programas de apoyo que maneja la asociación, puede navegar a través de los distintos menús para conocer la descripción de cada uno y poder realizar su aportación</h1>
 			</header>
 			<!--[if lte IE 9]>
 			<p style="font-size: 20px; padding: 50px;">Sorry, this only works in modern browsers...</p>

@@ -17,6 +17,7 @@ class PaginasControlador extends Controller
 
         $usuarios=Usuarios::all();
     	return view('formularioregistro', compact("usuarios"));
+
     } 
 
     public function historia(){

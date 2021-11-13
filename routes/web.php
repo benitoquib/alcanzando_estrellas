@@ -22,11 +22,13 @@ Route::resource('/usuarios', "UsuariosController");
 Route::get('/', "PaginasControlador@inicio");
 Route::get('/inicio', "PaginasControlador@inicio");
 Route::get('/registrarDonacion', "PaginasControlador@registrodonacion");
+
+//Route::get('/registrarDonacion/{usuario}', "PaginasControlador@registrodonacion")->name('datosusuario');
+
 Route::get('/historia',"PaginasControlador@historia");
 Route::get('/apoyar',"PaginasControlador@apoyo");
 Route::get('/acerca',"PaginasControlador@acerca");
 
-Route::get('/usuarios/create',"UsuariosController@create");
 
 Route::get('/leer',function(){
 	$usuarios = Usuarios::All();

@@ -62,6 +62,9 @@ class UsuariosController extends Controller
     public function show($id)
     {
         //
+        $usuario=Usuarios::findOrFail($id);
+
+        return view ("formularioregistro",compact("usuario"));
     }
 
     /**
