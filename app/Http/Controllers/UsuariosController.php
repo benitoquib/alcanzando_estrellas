@@ -13,7 +13,7 @@ class UsuariosController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -24,6 +24,7 @@ class UsuariosController extends Controller
     public function create()
     {
         //
+        return view('usuarios.create');
     }
 
     /**
@@ -36,10 +37,19 @@ class UsuariosController extends Controller
         $usuario=new Usuarios;
 
         $usuario->primer_nombre=$request->primer_nombre;
+        $usuario->segundo_nombre=$request->segundo_nombre;
+        $usuario->tercer_nombre=$request->tercer_nombre;
+
         $usuario->primer_apellido=$request->primer_apellido;
+        $usuario->segundo_apellido=$request->segundo_apellido;
+
         $usuario->direccion=$request->direccion;
         $usuario->email=$request->email;
         $usuario->telefono=$request->telefono;
+
+        
+
+
         $usuario->save();
     }
 

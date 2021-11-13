@@ -17,13 +17,16 @@ use App\Usuarios;
 /*Route::get('/', function(){
 	return view('index');
 })->name('home');*/
-Route::resource('views', "UsuariosController");
+Route::resource('/usuarios', "UsuariosController");
+
 Route::get('/', "PaginasControlador@inicio");
 Route::get('/inicio', "PaginasControlador@inicio");
 Route::get('/registrarDonacion', "PaginasControlador@registrodonacion");
 Route::get('/historia',"PaginasControlador@historia");
 Route::get('/apoyar',"PaginasControlador@apoyo");
 Route::get('/acerca',"PaginasControlador@acerca");
+
+Route::get('/usuarios/create',"UsuariosController@create");
 
 Route::get('/leer',function(){
 	$usuarios = Usuarios::All();
