@@ -13,10 +13,8 @@ class PaginasControlador extends Controller
     	return view('index');
     }
 
-    public function registrodonacion(){
-
-        $usuarios=Usuarios::all();
-    	return view('formularioregistro', compact("usuarios"));
+    public function registro(){
+        return view('donacion.create');
 
     } 
 
@@ -30,6 +28,11 @@ class PaginasControlador extends Controller
 
     public function acerca(){
         return view('acerca');
+    }
+
+    public function reg(){
+        $usuarios=Usuarios::all();
+        return view('registrodonacion', compact("usuarios"));
     }
 
     

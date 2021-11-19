@@ -1,16 +1,48 @@
 @extends('layouts.app')
 
-@section('content')  
-    <!-- Contact -->
-    <div id="contact" class="form-2">
-        <div class="container">
-            <div class="row">
-                    <br>
-                    <div class="section-title">DONACIONES</div>
-                    <h2>Llene el formulario para el registro de sus datos</h2>
-                    <p></p>
-                    
-                     <form method="post" id="registrouserform" data-toggle="validator" data-focus="false" action="/usuarios">
+@section('content') 
+
+<div id="formuser" class="form-2">
+    <div class="container">
+
+<h1>Siga los pasos por favor</h1>
+<h2>Nosotros te guiaremos</h2>
+
+    <div class="card">
+      <div class="card-header">
+        Donadores
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">En el boton desplegable puede buscar el usuario que le corresponde a su persona</h5>
+        <p class="card-text">Si no habia hecho una donacion anteriormente, puede registrar sus datos pulsando el segundo boton</p>
+
+        <div class="btn-group">
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Seleccionar usuario
+          </button>
+          <div class="dropdown-menu">
+            @foreach($usuarios as $usuario)
+                <a class="dropdown-item" href="{{route('datosusuario', $usuario->id)}}">{{$usuario->primer_nombre}}&nbsp;{{$usuario->segundo_nombre}}&nbsp;{{$usuario->primer_apellido}}</a>
+            @endforeach
+          </div>
+        </div>
+
+        <a href="#registrouser" class="btn btn-primary" data-toggle="modal">No he registrado mis datos</a>
+      </div>
+    </div>
+
+                        <!-- modal formulario registro user-->
+
+                    <div id="registrouser" class="modal fade">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Registro de usuario</h4>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                 </div>
+                                <div class="modal-body">
+
+                                    <form method="post" id="registrouserform" data-toggle="validator" data-focus="false" action="/usuarios">
                                         <table>
                                             <tr>
                                                 <td>
@@ -103,10 +135,17 @@
                                         </table>
 
                                     </form>
-                    <!-- end of contact form -->
 
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of form-2 -->
-    <!-- end of contact -->
+
+                                </div>
+                                <div class="modal-footer">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fin modal formulario registro user-->
+
+    </div>
+</div>
 @endsection

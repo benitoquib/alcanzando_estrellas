@@ -53,6 +53,12 @@ class UsuariosController extends Controller
         $usuario->save();
     }
 
+    public function cargarlistausuario(){
+
+        
+
+    } 
+
     /**
      * Display the specified resource.
      *
@@ -64,7 +70,7 @@ class UsuariosController extends Controller
         //
         $usuario=Usuarios::findOrFail($id);
 
-        return view ("formularioregistro",compact("usuario"));
+        return view ("donacion.create",compact("usuario"));
     }
 
     /**

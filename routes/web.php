@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Usuarios;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,13 +22,17 @@ Route::resource('/usuarios', "UsuariosController");
 
 Route::get('/', "PaginasControlador@inicio");
 Route::get('/inicio', "PaginasControlador@inicio");
-Route::get('/registrarDonacion', "PaginasControlador@registrodonacion");
+Route::get('/registrarDonacion', "UsuariosController@cargarlistausuario");
 
-//Route::get('/registrarDonacion/{usuario}', "PaginasControlador@registrodonacion")->name('datosusuario');
-
+//Route::get('/registrodonacion/{usuario}', "UsuariosController@show")->name('datosusuario');
+Route::get('/registrodonacion', "PaginasControlador@reg");
 Route::get('/historia',"PaginasControlador@historia");
 Route::get('/apoyar',"PaginasControlador@apoyo");
 Route::get('/acerca',"PaginasControlador@acerca");
+
+Route::get('/crear',"UsuariosController@create");
+//Route::get('/registro/{usuario}',"PaginasControlador@registro")->name('datosusuario');
+Route::get('/registro/{usuario}',"UsuariosController@show")->name('datosusuario');
 
 
 Route::get('/leer',function(){
