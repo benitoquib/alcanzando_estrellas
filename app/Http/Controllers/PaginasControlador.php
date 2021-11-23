@@ -12,6 +12,9 @@ class PaginasControlador extends Controller
     public function inicio(){
     	return view('index');
     }
+    public function prueba(){
+        return view('formularioregistro');
+    }
 
     public function registro(){
         return view('donacion.create');

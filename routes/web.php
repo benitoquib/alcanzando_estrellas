@@ -19,6 +19,7 @@ use App\Usuarios;
 	return view('index');
 })->name('home');*/
 Route::resource('/usuarios', "UsuariosController");
+Route::resource('/donacion', "DonacionesController");
 
 Route::get('/', "PaginasControlador@inicio");
 Route::get('/inicio', "PaginasControlador@inicio");
@@ -30,9 +31,12 @@ Route::get('/historia',"PaginasControlador@historia");
 Route::get('/apoyar',"PaginasControlador@apoyo");
 Route::get('/acerca',"PaginasControlador@acerca");
 
+Route::get('/formulario',"PaginasControlador@prueba");
+
 Route::get('/crear',"UsuariosController@create");
 //Route::get('/registro/{usuario}',"PaginasControlador@registro")->name('datosusuario');
 Route::get('/registro/{usuario}',"UsuariosController@show")->name('datosusuario');
+
 
 
 Route::get('/leer',function(){
