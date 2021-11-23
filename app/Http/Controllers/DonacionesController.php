@@ -48,7 +48,7 @@ class DonacionesController extends Controller
         $donacion->save();*/
         try {
             DB::beginTransaction();
-            DB::commit();
+            
             $entrada=$request->all();
             if($archivo=$request->file('comprobante')){
                 $nombre=$archivo->getClientOriginalName();
@@ -57,9 +57,12 @@ class DonacionesController extends Controller
 
             }
             Registrodonacion::create($entrada);
+            DB::commit();
+            return redirect()->route('registro')->with('Mensaje','Datos registrados correctamente');
 
         } catch (Exception $e) {
             DB::rollback();
+            return redirect()->route('registro')->with('Mensaje','Datos no registrados');
         }
 
         

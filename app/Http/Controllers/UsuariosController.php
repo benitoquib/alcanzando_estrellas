@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Usuarios;
+use DB;
 class UsuariosController extends Controller
 {
     /**
@@ -34,23 +35,33 @@ class UsuariosController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request){
-        $usuario=new Usuarios;
+        try {
+            DB::beginTransaction();
+            
+            $usuario=new Usuarios;
 
-        $usuario->primer_nombre=$request->primer_nombre;
-        $usuario->segundo_nombre=$request->segundo_nombre;
-        $usuario->tercer_nombre=$request->tercer_nombre;
+            $usuario->primer_nombre=$request->primer_nombre;
+            $usuario->segundo_nombre=$request->segundo_nombre;
+            $usuario->tercer_nombre=$request->tercer_nombre;
 
-        $usuario->primer_apellido=$request->primer_apellido;
-        $usuario->segundo_apellido=$request->segundo_apellido;
+            $usuario->primer_apellido=$request->primer_apellido;
+            $usuario->segundo_apellido=$request->segundo_apellido;
 
-        $usuario->direccion=$request->direccion;
-        $usuario->email=$request->email;
-        $usuario->telefono=$request->telefono;
+            $usuario->direccion=$request->direccion;
+            $usuario->email=$request->email;
+            $usuario->telefono=$request->telefono;
+
+            $usuario->save();
+            DB::commit();
+            return redirect()->route('registro')->with('Mensaje','Datos registrados correctamente');
+
+        } catch (Exception $e) {
+            DB::rollback();
+            return redirect()->route("registro")->with('Mensaje','Datos no registrados');
+        }
+
 
         
-
-
-        $usuario->save();
     }
 
     public function cargarlistausuario(){

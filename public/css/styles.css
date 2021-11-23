@@ -801,6 +801,18 @@ input[type='checkbox'] {
 	margin-bottom: 1.25rem;
 }
 
+/**********header2***********/
+
+.ex-header2 {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+	background-color: #153e52;
+	text-align: center;
+}
+
+.ex-header2 h1 {
+	color: #fff;
+}
 
 /*********************/
 /*     05. Intro     */

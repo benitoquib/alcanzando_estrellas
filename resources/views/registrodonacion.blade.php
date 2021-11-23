@@ -1,6 +1,13 @@
 @extends('layouts.app')
+<header id="header" class="ex-header2">
+</header> <!-- end of ex-header -->
 
 @section('content') 
+    @if(Session::has('Mensaje'))
+        <div class="alert alert-success" role="alert">
+            {{Session::get('Mensaje')}}
+        </div>
+    @endif
 
 <div id="formuser" class="form-2">
     <div class="container">
@@ -43,6 +50,18 @@
                                 <div class="modal-body">
 
                                     <form method="post" id="registrouserform" data-toggle="validator" data-focus="false" action="/usuarios">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                          <label class="form-check-label" for="flexCheckDefault">
+                                            Default checkbox
+                                          </label>
+                                        </div>
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                          <label class="form-check-label" for="flexCheckChecked">
+                                            Checked checkbox
+                                          </label>
+                                        </div>
                                         <table>
                                             <tr>
                                                 <td>

@@ -26,7 +26,7 @@ Route::get('/inicio', "PaginasControlador@inicio");
 Route::get('/registrarDonacion', "UsuariosController@cargarlistausuario");
 
 //Route::get('/registrodonacion/{usuario}', "UsuariosController@show")->name('datosusuario');
-Route::get('/registrodonacion', "PaginasControlador@reg");
+Route::get('/registrodonacion', "PaginasControlador@reg")->name('registro');
 Route::get('/historia',"PaginasControlador@historia");
 Route::get('/apoyar',"PaginasControlador@apoyo");
 Route::get('/acerca',"PaginasControlador@acerca");

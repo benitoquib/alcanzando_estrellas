@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
-@section('content')  
+@section('content') 
+    <header id="header" class="ex-header2">
+    </header> <!-- end of ex-header -->
+  @if(Session::has('Mensaje'))
+      <div class="alert alert-success" role="alert">
+          {{Session::get('Mensaje')}}
+      </div>
+  @endif
 <!-- contact -->
     <div class="form-2" id="contact">
       <div class="container">
