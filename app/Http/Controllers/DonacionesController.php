@@ -36,8 +36,8 @@ class DonacionesController extends Controller
      */
     public function store(Request $request)
     {
-        
         $DateAndTime = date('Y-m-d', time());
+        $DateAndTime2 = date('Y-m-d g:ia', time());
         /*$donacion = new Registrodonacion;
             $donacion->tipodonacion_id=2;
             $donacion->usuario_id=$request->usuario_id;
@@ -54,10 +54,9 @@ class DonacionesController extends Controller
             $entrada['fecha']=$DateAndTime;
             $entrada['tipodonacion_id']=1;
             if($archivo=$request->file('comprobante')){
-                $nombre=$archivo->getClientOriginalName();
+                $nombre="archivo" . $DateAndTime2 . '_' . $archivo->getClientOriginalName();
                 $archivo->move(public_path().'/files/',$nombre);
                 $entrada['comprobante']=$nombre;
-
             }
             Registrodonacion::create($entrada);
 
