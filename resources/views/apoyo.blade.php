@@ -1,24 +1,17 @@
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-		<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Apoyanos de corazon</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <link rel="shortcut icon" href="../favicon.ico"> 
+@extends('layouts.app2')
+
+@section('content')
+		<link rel="shortcut icon" href="../favicon.ico"> 
         <link rel="stylesheet" type="text/css" href="{{asset('css/demo.css')}}" />
         <link rel="stylesheet" type="text/css" href="{{asset('css/style5.css')}}" />
-    </head>
-    <body>
-        <div class="container">
-			<header>
-				<h1>Como Apoyar</span></h1>
-				<h1>A continuación se presentan los programas de apoyo que maneja la asociación, puede navegar a través de los distintos menús para conocer la descripción de cada uno y poder realizar su aportación</h1>
-			</header>
-			<!--[if lte IE 9]>
-			<p style="font-size: 20px; padding: 50px;">Sorry, this only works in modern browsers...</p>
-			<![endif]-->
-			<section class="cn-container">
+		<link rel="stylesheet" type="text/css" href="{{asset('css/styles.css')}}" />
+	
+<header id="header" class="ex-header2">
+ </header>
+<div class="ex-basic-2">
+<div class="container">
+        <div class="row">
+            <div class="col-lg-12">
 				<div class="cn-slide" id="slide-main">
 					<h2>Apoyanos de corazon</h2>
 					<nav>
@@ -49,6 +42,7 @@
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
 						<p>Puede realizar un deposito a la cuenta <b>30-4018604-0</b> a nombre de <b>Asociacion Alcanzando Estrellas</b> en <b>Banco Agromercantil</b></p>
+						<a class="btn-solid-lg page-scroll" href="/registrodonacion">Realizar Donación</a>
 					</div>
 					
 					<span class="cn-note">Keep clicked to show image</span>
@@ -244,9 +238,41 @@
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
-
-
-			</section>
+			</div>
         </div>
-    </body>
-</html>
+    </div>
+ </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+@endsection
