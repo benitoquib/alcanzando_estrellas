@@ -2,8 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Usuarios;
-use App\Http\Controllers\Auth;
 
+use App\Http\Controllers\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,4 +58,5 @@ Route::get('/password/reset/{token}', 'Auth\ResetPasswordController@showResetFor
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-
+Route::get('contactanos', 'ContactanosController@index')->name('contactanos.index');
+Route::post('contactanos', 'ContactanosController@store')->name('contactanos.store');
