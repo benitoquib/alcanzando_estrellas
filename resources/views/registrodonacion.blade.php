@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app2')
 <header id="header" class="ex-header2">
 </header> <!-- end of ex-header -->
 

@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Usuarios;
-
+use App\Registrodonacion;
 class PaginasControlador extends Controller
 {
     //
@@ -37,6 +37,8 @@ class PaginasControlador extends Controller
         $usuarios=Usuarios::all();
         return view('registrodonacion', compact("usuarios"));
     }
-
+    public function traerdonaciones(){
+        
+    }
     
 }

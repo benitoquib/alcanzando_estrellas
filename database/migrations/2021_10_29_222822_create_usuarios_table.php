@@ -16,10 +16,10 @@ class CreateUsuariosTable extends Migration
         Schema::create('usuarios', function (Blueprint $table) {
             $table->increments('id');
             $table->string("primer_nombre");
-            $table->string("segundo_nombre");
-            $table->string("tercer_nombre");
+            $table->string("segundo_nombre")->nullable();
+            $table->string("tercer_nombre")->nullable();
             $table->string("primer_apellido");
-            $table->string("segundo_apellido");
+            $table->string("segundo_apellido")->nullable();
             $table->string("direccion");
             $table->string("email");
             $table->string("telefono");

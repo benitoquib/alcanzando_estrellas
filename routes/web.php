@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Usuarios;
+use App\Http\Controllers\Auth;
 
 
 /*
@@ -36,56 +37,25 @@ Route::get('/formulario',"PaginasControlador@prueba");
 Route::get('/crear',"UsuariosController@create");
 //Route::get('/registro/{usuario}',"PaginasControlador@registro")->name('datosusuario');
 Route::get('/registro/{usuario}',"UsuariosController@show")->name('datosusuario');
+Route::get('/userdonador/{usuario}',"AdminDonacionescontroller@show")->name('userdonador');
 
 
 
-Route::get('/leer',function(){
-	$usuarios = Usuarios::All();
-	foreach ($usuarios as $usuario) {
-		echo $usuario->primer_nombre ;
-		echo $usuario->primer_apellido . "<br>";
-	}
+//Auth::routes();
+Route::post('/login', 'Auth\LoginController@login');
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+Route::post('/logout', 'Auth\LoginController@logout')->name('logout');
+Route::post('/password/confirm', 'Auth\ConfirmPasswordController@confirm');
+Route::get('/password/confirm', 'Auth\ConfirmPasswordController@showConfirmForm')->name('password.confirm');
 
-});
+Route::post('/password/email', 'Auth\ForgotPasswordController@sendResetLinkEmail')->name('password.email');
+Route::get('/password/reset', 'Auth\ForgotPasswordController@showLinkRequestForm')->name('password.request');
+Route::post('/password/reset', 'Auth\ResetPasswordController@reset')->name('password.update');
+Route::get('/password/reset/{token}', 'Auth\ResetPasswordController@showResetForm')->name('password.reset');
+
+//Route::post('/register', 'Auth\RegisterController@register');
+//Route::get('/register', 'Auth\RegisterController@showRegistrationForm')->name('register');
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/insertarusuario',function(){
-	$usuario=new Usuarios;
-	$usuario->primer_nombre="Beneq";
-	$usuario->segundo_nombre="doobdo";
-	$usuario->tercer_nombre="";
-	$usuario->primer_apellido="Quibc";
-	$usuario->segundo_apellido="";
-	$usuario->direccion="chamelco";
-	$usuario->email="bquib@gmail";
-	$usuario->telefono="24353212";
-
-	$usuario->save();
-});
-
-Route::get('/actualizarusuario',function(){
-	$usuario=Usuarios::find(2);
-	$usuario->primer_nombre="Beneq";
-	$usuario->segundo_nombre="sasss";
-	$usuario->tercer_nombre="";
-	$usuario->primer_apellido="Quibc";
-	$usuario->segundo_apellido="";
-	$usuario->direccion="chamelco";
-	$usuario->email="bquib@gmail";
-	$usuario->telefono="24353212";
-
-	$usuario->save();
-});
-
-Route::get('/borrarusuario',function(){
-	$usuario=Usuarios::find(2);
-	$usuario->delete();
-});
-
-Route::get('/usuariosdonacion',function(){
-	$donaciones=Usuarios::find(1)->registrodonacion;
-	foreach ($donaciones as $donacion) {
-		echo $donacion->fecha;
-		echo $donacion->numero_boleta;
-	}
-});

@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app2')
 
 @section('content') 
     <header id="header" class="ex-header2">
@@ -18,18 +18,17 @@
             <div class="col-md-6 con-gd">
               <div class="form-group">
                 <p>Nombre</p>
-                <input name="tipodonacion_id" style='display:none;' value=1>
                 <input name="usuario_id" style='display:none;' value="{{$usuario->id}}">
-                <input type="text" class="form-control" value="{{$usuario->primer_nombre}}&nbsp;{{$usuario->segundo_nombre}}&nbsp;{{$usuario->primer_apellido}}&nbsp;{{$usuario->segundo_apellido}}" >
+                <input type="text" class="form-control" value="{{$usuario->primer_nombre}}&nbsp;{{$usuario->segundo_nombre}}&nbsp;{{$usuario->primer_apellido}}&nbsp;{{$usuario->segundo_apellido}}" disabled="">
               </div>
               <div class="form-group">
                 <p>Email</p>
-                <input type="email" class="form-control" value="{{$usuario->email}}">
+                <input type="email" class="form-control" value="{{$usuario->email}}" disabled="">
               </div>
 
               <div class="form-group">
                 <p>Direccion</p>
-                <input type="address" class="form-control" value="{{$usuario->direccion}}">
+                <input type="address" class="form-control" value="{{$usuario->direccion}}" disabled="">
               </div>
             </div>
 

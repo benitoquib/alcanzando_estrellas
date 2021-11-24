@@ -21,10 +21,10 @@ class CreateRegistroDonacionTable extends Migration
             $table->unsignedInteger('usuarios_id');
             /*$table->foreignId('id_usuario')->constrained('tb_usuarios');*/
             $table->string("numero_boleta");
-            $table->string("estado");
+            $table->string("estado")->nullable();
             $table->decimal("monto");
             $table->text("comentario");
-            $table->binary("comprobante");
+            $table->string("comprobante");
             $table->timestamps();
         });
     }
