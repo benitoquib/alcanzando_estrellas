@@ -1,12 +1,16 @@
-Run php artisan key:generate.
+//Agregar la carpeta vendor
+composer update
+//Crear el archivo .env y copiar el example con los datos de la bd
+//Generar la llave en artisan
+php artisan key:generate.
+//Borrar configuraciones anteriores
+php artisan config:clear,
+//Borrar Cache
+php artisan config:cache
 
-Do php artisan config:clear,
+-----> Codigos nucleares que te salvaran la vida :v
 
-Then php artisan config:cache
-
-codigos nucleares que te salvaran la vida :v
-
-conexion db
+//Conexión a la base de datos actual
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1

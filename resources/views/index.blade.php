@@ -316,6 +316,10 @@
                                 <li class="media">
                                     <i class="fas fa-square"></i>
                                     <div class="media-body">Filosofía para Niños</div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-square"></i>
+                                    <div class="media-body">Metodología para Aprender a Pensar  </div>
                                 </li>                                                                   
                             </ul>                           
                         </div>                        
@@ -482,8 +486,8 @@
                                     <div class="card">
                                         <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Llego a la asociación con problemas de aprendizaje, se trató y se hayo la causa dada por problemas de violencia intrafamiliar (padre no biológico) y barrera idiomática, al tratarla a ella y a su familia comenzó un buen rendimiento en sus clases y aprobó el grado ahora tiene una familia más estable y mayor comunicación con sus padres.</div>
-                                            <div class="testimonial-author">Gloria, Una estrella con un brillo mas intenso.</div>
+                                            <div class="testimonial-author">Una estrella con un brillo mas intenso.</div>
+                                            <div class="testimonial-text">Gloria, Llego a la asociación con problemas de aprendizaje, se trató y se hayo la causa dada por problemas de violencia intrafamiliar (padre no biológico) y barrera idiomática, al tratarla a ella y a su familia comenzó un buen rendimiento en sus clases y aprobó el grado ahora tiene una familia más estable y mayor comunicación con sus padres.</div>                                            
                                         </div>
                                     </div>
                                 </div> <!-- end of swiper-slide -->
@@ -494,8 +498,8 @@
                                     <div class="card">
                                         <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Rosa una jóven de escasos recursos, la segunda de nueve hijos por su situación económica abandono la escuela para tener que generar ingresos para su familia, la necesidad obliga a las familias a que los niños generen ingresos,  gracias al apoyo y concientización a los padres hoy la mamá esta consiente y apoya a su hija, la que dejo de trabajar y estudia teniendo un buen rendimiento, siendo en el 2011 niña independencia y una de las niñas promesa, de la escuela donde estudiaba (Selección de niños lideres para capacitación de salud mental como agente multiplicador)</div>
-                                            <div class="testimonial-author">La revelacion de una promesa</div>
+                                        <div class="testimonial-author">La revelacion de una promesa</div>    
+                                        <div class="testimonial-text">Rosa una jóven de escasos recursos, la segunda de nueve hijos por su situación económica abandono la escuela para tener que generar ingresos para su familia, la necesidad obliga a las familias a que los niños generen ingresos,  gracias al apoyo y concientización a los padres hoy la mamá esta consiente y apoya a su hija, la que dejo de trabajar y estudia teniendo un buen rendimiento, siendo en el 2011 niña independencia y una de las niñas promesa, de la escuela donde estudiaba (Selección de niños lideres para capacitación de salud mental como agente multiplicador)</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -506,9 +510,9 @@
                                     <div class="card">
                                         <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Alejandro un niño con discapacidad auditiva y movimiento de su miembro inferior izquierdo, el segundo de cuatro hijos, madre viuda, estudiando dos años en la escuela donde se le discriminaba por sus discapacidades, no logro aprobar el grado, a la madre le sugirieron que mejor lo pusiera a trabajar, pero la madre busco la Asociación  Alcanzando Estrellas que le gestiono la evaluación e inscripción a la escuela de educación especial EDECRI y para poder llegar  a la misma  el recorre un kilómetro a pie, ya que carecen de recursos económicos para pagar un bus. Ahora Alejandro ya sabe leer, algo que no hubiese podido alcanzar en la escuela donde anteriormente estaba, porque no se le atendía en su problema. La asociación le gestiono audífonos, pues tenía perdida severa del oído izquierdo, también beca por discapacidad del Mineduc, regreso a la escuela donde estudiaba a terminar su primaria y recientemente 3º. básico. Alejandro, también trabajaba algunos días para apoyar con sus gastos  a su mama.
-                                            La actitud de la madre fue clave al buscar ayuda para su hijo y no cedió a la tentación de ponerlo a trabajar, aunque tenía mucha necesidad, priorizo la educación de su hijo.</div>
-                                            <div class="testimonial-author">Un niño sin Barreras para Crecer</div>
+                                        <div class="testimonial-author">Un niño sin Barreras para Crecer</div>    
+                                        <div class="testimonial-text">Alejandro un niño con discapacidad auditiva y movimiento de su miembro inferior izquierdo, el segundo de cuatro hijos, madre viuda, estudiando dos años en la escuela donde se le discriminaba por sus discapacidades, no logro aprobar el grado, a la madre le sugirieron que mejor lo pusiera a trabajar, pero la madre busco la Asociación  Alcanzando Estrellas que le gestiono la evaluación e inscripción a la escuela de educación especial EDECRI y para poder llegar  a la misma  el recorre un kilómetro a pie, ya que carecen de recursos económicos para pagar un bus. Ahora Alejandro ya sabe leer, algo que no hubiese podido alcanzar en la escuela donde anteriormente estaba, porque no se le atendía en su problema. La asociación le gestiono audífonos, pues tenía perdida severa del oído izquierdo, también beca por discapacidad del Mineduc, regreso a la escuela donde estudiaba a terminar su primaria y recientemente 3º. básico. Alejandro, también trabajaba algunos días para apoyar con sus gastos  a su mama.
+                                            La actitud de la madre fue clave al buscar ayuda para su hijo y no cedió a la tentación de ponerlo a trabajar, aunque tenía mucha necesidad, priorizo la educación de su hijo.</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -519,9 +523,9 @@
                                     <div class="card">
                                         <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Amalia la segunda de cuatro hijos, madre qeqchi, analfabeta, a su ingreso presentaba problemas de aprendizaje, al tratarse se estableció que eran por problemas familiares, barrera idiomática y maestra (monolingüe, con poca tolerancia hacia la niña) y después de recibir apoyo psicológico y orientación escolar ahora es una niña sobresaliente y abanderada en la escuela que asiste. 
-                                            La actitud de la madre fue clave, porque, aunque la maestra decía que era una niña perezosa, ella busco ayuda en la asociación para su hija.</div>
-                                            <div class="testimonial-author">La luz que que no se apaga.</div>
+                                        <div class="testimonial-author">La luz que que no se apaga.</div>    
+                                        <div class="testimonial-text">Amalia la segunda de cuatro hijos, madre qeqchi, analfabeta, a su ingreso presentaba problemas de aprendizaje, al tratarse se estableció que eran por problemas familiares, barrera idiomática y maestra (monolingüe, con poca tolerancia hacia la niña) y después de recibir apoyo psicológico y orientación escolar ahora es una niña sobresaliente y abanderada en la escuela que asiste. 
+                                            La actitud de la madre fue clave, porque, aunque la maestra decía que era una niña perezosa, ella busco ayuda en la asociación para su hija.</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -530,11 +534,11 @@
                                 <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
                                         <div class="card-body">
+                                            <div class="testimonial-author">La Oportunidad de un mejor futuro</div>    
                                             <div class="testimonial-text">Estela La octava de ocho hijos, una niña con problemas de aprendizaje y repitencia, no quería asistir a la escuela ni hacer tareas, se le empezó a tratar, brindándole el apoyo psicológico para superar  duelo de la madre  y reforzando áreas de debilidad, hoy es la mejor alumna de su clase, asiste con ilusión y no falta ningún día en un ciclo escolar. La actitud de la hermana que conocía la  institución, fue determinante, al buscar ayuda en la asociación para su hermana menor y la atención brindada a la niña en la  asociación
-                                            </div>
-                                            <div class="testimonial-author">La Oportunidad de un mejor futuro</div>
+                                            </div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -543,10 +547,10 @@
                                 <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-6.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Oscar el cuarto de ocho hijos, mamá viuda, familia qeqchi y analfabeta, un niño con ausentismo escolar y repitencia, por lo cual tenía ya dos bimestres perdidos, se le comenzó a motivar, hablar con hermanos y mamá además de monitorear su asistencia a la escuela se logró que óscar aprobara su grado, en octubre la maestra confirma la aprobación del grado escolar.</div>
-                                            <div class="testimonial-author">La perseverancia rinde sus frutos</div>
+                                        <div class="testimonial-author">La perseverancia rinde sus frutos</div>    
+                                        <div class="testimonial-text">Oscar el cuarto de ocho hijos, mamá viuda, familia qeqchi y analfabeta, un niño con ausentismo escolar y repitencia, por lo cual tenía ya dos bimestres perdidos, se le comenzó a motivar, hablar con hermanos y mamá además de monitorear su asistencia a la escuela se logró que óscar aprobara su grado, en octubre la maestra confirma la aprobación del grado escolar.</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -555,10 +559,10 @@
                                 <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-7.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Marcos, el 1º. de 3 hermanos, madre soltera, analfabeta, indígena, un joven de escasos recursos que tenía que trabajar para aportar ingresos a su casa, por su alto rendimiento,  logro una beca en el MINEDUC, participo en las olimpiadas de la ciencia del CUNOR obteniendo un tercer lugar a nivel departamental y regional. Asistía a la institución y trabajaba, los medios días,  para apoyar el sostenimiento de su familia, ya que además de los gastos de alimentación, deben pagar alquiler. Logro graduarse de bachiller y ahora asiste a la universidad.</div>
-                                            <div class="testimonial-author">Alcanzando Metas</div>
+                                            <div class="testimonial-author">Alcanzando Metas</div>    
+                                            <div class="testimonial-text">Marcos, el 1º. de 3 hermanos, madre soltera, analfabeta, indígena, un joven de escasos recursos que tenía que trabajar para aportar ingresos a su casa, por su alto rendimiento,  logro una beca en el MINEDUC, participo en las olimpiadas de la ciencia del CUNOR obteniendo un tercer lugar a nivel departamental y regional. Asistía a la institución y trabajaba, los medios días,  para apoyar el sostenimiento de su familia, ya que además de los gastos de alimentación, deben pagar alquiler. Logro graduarse de bachiller y ahora asiste a la universidad.</div>                                        
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -567,10 +571,10 @@
                                 <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-8.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Amalia jovencita q’eqchi’ risueña, amable, colaboradora, educada, tranquila y responsable. La familia de Amalia está conformada por su madre q’eqchi, analfabeta, madre soltera por abandono del esposo, con poca tolerancia la frustración, trabajaba como empleada de oficios domésticos los ingresos eran insuficientes para cubrir los gastos de alquiler, alimentación y   demás, por tal razón Amalia, trabajo como niñera en las mañanas y fines de semana, para contribuir a   los gastos del instituto. Se levantaba muy temprano luego se prepara para ir a la academia de mecanografía,  que gracias a la  gestión de la institución  gozaba de una beca  completa; a pesar del trabajo y compromisos su rendimiento en la escuela era muy bueno por tal motivo se encontraba en el cuadro de honor de la escuela donde estudiaba. Ella y  su hermano menor  continuaron estudiando, gracias al acompañamiento orientación  en tareas  y formación en valores la joven consiguió la motivación para salir adelante, fue así como se le asigno una beca, para hacer posible que  ella estudiara básico </div>
                                             <div class="testimonial-author">Una historia de resiliencia</div>
+                                            <div class="testimonial-text">Amalia jovencita q’eqchi’ risueña, amable, colaboradora, educada, tranquila y responsable. La familia de Amalia está conformada por su madre q’eqchi, analfabeta, madre soltera por abandono del esposo, con poca tolerancia la frustración, trabajaba como empleada de oficios domésticos los ingresos eran insuficientes para cubrir los gastos de alquiler, alimentación y   demás, por tal razón Amalia, trabajo como niñera en las mañanas y fines de semana, para contribuir a   los gastos del instituto. Se levantaba muy temprano luego se prepara para ir a la academia de mecanografía,  que gracias a la  gestión de la institución  gozaba de una beca  completa; a pesar del trabajo y compromisos su rendimiento en la escuela era muy bueno por tal motivo se encontraba en el cuadro de honor de la escuela donde estudiaba. Ella y  su hermano menor  continuaron estudiando, gracias al acompañamiento orientación  en tareas  y formación en valores la joven consiguió la motivación para salir adelante, fue así como se le asigno una beca, para hacer posible que  ella estudiara básico </div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -579,10 +583,10 @@
                                 <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-9.png" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Aurora la segunda de tres hermanos, la madre, qeqchi, analfabeta, soltera, por abandono, con poca tolerancia a la frustración, no quería que ella estudiara, solo su hermano por ser varón estaba estudiando, se convenció a la madre para que la niña ingresara a la escuela, y así inicio sus estudios los que continuo,  su hermano mayor falleció por epilepsia, la hermana menor,   es una niña con capacidades diferentes. Familia en extrema pobreza, por lo que Aurora ayudaba con los gastos de la familia trabajando en las tardes y fines de semana, cuidando niños u oficios domésticos, durante su niñez enfrento varias dificultades entre ellas hambre, pasaba algunos días sin comer solo tomando agua porque, no contaban con recursos para comprar alimentos. Se ausento de la asociación unos 3 años, pero regreso y  con al apoyo de Alcanzando Estrellas, se convirtió en una buena estudiante,  jovencita de buen promedio, por lo que  se le tramito una bolsa de Estudios que otorga el Ministerio de Educación, durante 4 años,  esto la motivo a seguir estudiando y obtener notas sobresalientes, Se graduó de maestra de educación bilingüe siendo la única integrante de la familia que logro alcanzar esta meta y la que hoy sostiene a su hermana y mama.</div>
-                                            <div class="testimonial-author">Esperanza en las dificultades</div>
+                                            <div class="testimonial-author">Esperanza en las dificultades</div>    
+                                            <div class="testimonial-text">Aurora la segunda de tres hermanos, la madre, qeqchi, analfabeta, soltera, por abandono, con poca tolerancia a la frustración, no quería que ella estudiara, solo su hermano por ser varón estaba estudiando, se convenció a la madre para que la niña ingresara a la escuela, y así inicio sus estudios los que continuo,  su hermano mayor falleció por epilepsia, la hermana menor,   es una niña con capacidades diferentes. Familia en extrema pobreza, por lo que Aurora ayudaba con los gastos de la familia trabajando en las tardes y fines de semana, cuidando niños u oficios domésticos, durante su niñez enfrento varias dificultades entre ellas hambre, pasaba algunos días sin comer solo tomando agua porque, no contaban con recursos para comprar alimentos. Se ausento de la asociación unos 3 años, pero regreso y  con al apoyo de Alcanzando Estrellas, se convirtió en una buena estudiante,  jovencita de buen promedio, por lo que  se le tramito una bolsa de Estudios que otorga el Ministerio de Educación, durante 4 años,  esto la motivo a seguir estudiando y obtener notas sobresalientes, Se graduó de maestra de educación bilingüe siendo la única integrante de la familia que logro alcanzar esta meta y la que hoy sostiene a su hermana y mama.</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -591,10 +595,10 @@
                                  <!-- Slide La luz que que no se apaga.-->
                                 <div class="swiper-slide">
                                     <div class="card">
-                                        <img class="card-image" src="images/testimonial-4.jpg" alt="alternative">
+                                        <img class="card-image" src="images/testimonial-10.jpg" alt="alternative">
                                         <div class="card-body">
-                                            <div class="testimonial-text">Marta niña de  trece años de edad la mayor de ocho  hermanos, familia queqchi en pobreza extrema y de padres analfabetos, nunca había asistido a la escuela, por falta de recursos económicos,  y porque su familia consideraba que ella  no necesitaba estudiar, pues era mujer, ella era la encargada de ayudar con las tareas domésticas. Se convenció a la madre que la niña tenía el derecho de estudiar y se iniciaron gestiones y acompañamiento   de parte de Asociación Alcanzando Estrellas y  se logro que la niña pudiera ser admitida a primer grado de primaria, por su edad tenía dificultades para ser aceptada en la escuela, la niña aprendió rápidamente a leer y a escribir, incluso apoyaba a la maestra y ayudaba a sus compañeros de clase, se mostraba feliz y agradecida por tener la oportunidad de aprender y  asistía  a reforzamiento y participaba en las  actividades de la asociación, lo mismo que la madre asistía a la escuela de madres.   Marta actualmente continua estudiando y se siente motivada, cuando sea mayor quiere ser Maestra para poder ayudar a otros niños a aprender a leer y escribir.</div>
-                                            <div class="testimonial-author">Rompiendo estereotipos</div>
+                                            <div class="testimonial-author">Rompiendo estereotipos</div>    
+                                            <div class="testimonial-text">Marta niña de  trece años de edad la mayor de ocho  hermanos, familia queqchi en pobreza extrema y de padres analfabetos, nunca había asistido a la escuela, por falta de recursos económicos,  y porque su familia consideraba que ella  no necesitaba estudiar, pues era mujer, ella era la encargada de ayudar con las tareas domésticas. Se convenció a la madre que la niña tenía el derecho de estudiar y se iniciaron gestiones y acompañamiento   de parte de Asociación Alcanzando Estrellas y  se logro que la niña pudiera ser admitida a primer grado de primaria, por su edad tenía dificultades para ser aceptada en la escuela, la niña aprendió rápidamente a leer y a escribir, incluso apoyaba a la maestra y ayudaba a sus compañeros de clase, se mostraba feliz y agradecida por tener la oportunidad de aprender y  asistía  a reforzamiento y participaba en las  actividades de la asociación, lo mismo que la madre asistía a la escuela de madres.   Marta actualmente continua estudiando y se siente motivada, cuando sea mayor quiere ser Maestra para poder ayudar a otros niños a aprender a leer y escribir.</div>                                            
                                         </div>
                                     </div>        
                                 </div> <!-- end of swiper-slide -->
@@ -637,7 +641,7 @@
                         <a class="button" data-filter=".recaudacion"><span>Recaudacion</span></a>
                         <a class="button" data-filter=".educacion"><span>Educacion</span></a>
                         <a class="button" data-filter=".recreacion"><span>Recreacion</span></a>
-                        <a class="button" data-filter=".otras"><span>Otras</span></a>
+                        <a class="button" data-filter=".otras"><span>Otras</span></a>                        
                     </div> <!-- end of button group -->
                     <div class="grid">
                         <div class="element-item recaudacion">
@@ -679,6 +683,21 @@
                         <div class="element-item educacion recreacion">
                             <a class="popup-with-move-anim" href="#project-13"><div class="element-item-overlay"><span>Aprendizaje de deportes</span></div><img src="images/actividad-13-1.jpg" alt="alternative"></a>
                         </div>
+                        <div class="element-item recreacion">
+                            <a class="popup-with-move-anim" href="#project-14"><div class="element-item-overlay"><span>Carrera Cobancito 2019</span></div><img src="images/Actividad-Cobancito-3.jpg" alt="alternative"></a>          
+                        </div>
+                        <div class="element-item recreacion">
+                            <a class="popup-with-move-anim" href="#project-15"><div class="element-item-overlay"><span>Recreación</span></div><img src="images/Actividad-recvid.jpg" alt="alternative"></a>                     
+                        </div>
+                        <div class="element-item otras">
+                            <a class="popup-with-move-anim" href="#project-16"><div class="element-item-overlay"><span>Spot Publicitario</span></div><img src="images/actividad-16.jpg" alt="alternative"></a>                     
+                        </div>     
+                        <div class="element-item otras">
+                            <a class="popup-with-move-anim" href="#project-17"><div class="element-item-overlay"><span>Testimonio #1</span></div><img src="images/actividad-17.jpg" alt="alternative"></a>                     
+                        </div>      
+                        <div class="element-item otras">
+                            <a class="popup-with-move-anim" href="#project-18"><div class="element-item-overlay"><span>Testimonio #2</span></div><img src="images/actividad-18.jpg" alt="alternative"></a>                     
+                        </div>                 
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
                     
@@ -930,6 +949,111 @@
         </div> <!-- end of row -->
     </div> <!-- end of lightbox-basic -->
     <!-- end of lightbox -->
+    <!-- Lightbox Carrera Caboncito-->
+    <div id="project-14" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">                
+                <img class="img-fluid" src="images/Actividad-Cobancito-1.jpg" alt="alternative">                
+                <img class="img-fluid" src="images/Actividad-Cobancito-2.jpg" alt="alternative">
+                <img class="img-fluid" src="images/Actividad-Cobancito-3.jpg" alt="alternative">
+                <img class="img-fluid" src="images/Actividad-Cobancito-4.jpg" alt="alternative">
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Carrera Caboncito</h3>
+                <hr class="line-heading">
+                <h6>Cobán, A.V.</h6>
+                <p>Realizada en el año 2019</p>
+                 <a class="btn-outline-reg mfp-close as-button" href="#projects">Regresar</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic Carrera Caboncito-->
+    <!-- end of lightbox -->
+    
+    <!-- Lightbox Video Recreativo-->
+    <div id="project-15" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">                           
+                <video width="640" height="480" controls>
+                    <source src="video/recreacion.mp4" type="video/mp4" loop autoplay >
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Recreación</h3>
+                <hr class="line-heading">
+                <h6>Actividades Recreativas</h6>
+                <p>Agostro del 2019 </p>                
+                 <a class="btn-outline-reg mfp-close as-button" href="#projects">Regresar</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox Video Recreativo -->
+
+    <!-- Lightbox Video Spot-->
+    <div id="project-16" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">                           
+                <video width="640" height="480" controls>
+                    <source src="video/actividad-16.mp4" type="video/mp4" loop autoplay >
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Spot Publicitario</h3>
+                <hr class="line-heading">
+                <h6>Asociación Alcanzando Estrellas</h6>                     
+                 <a class="btn-outline-reg mfp-close as-button" href="#projects">Regresar</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox Video Spot -->
+
+    <!-- Lightbox Video Spot-->
+    <div id="project-17" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">                           
+                <video width="640" height="480" controls>
+                    <source src="video/actividad-17.mp4" type="video/mp4" loop autoplay >
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Testimonio #1</h3>
+                <hr class="line-heading">
+                <h6>Deserción Escolar</h6>                     
+                 <a class="btn-outline-reg mfp-close as-button" href="#projects">Regresar</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox Video Spot -->
+
+     <!-- Lightbox Video Spot-->
+     <div id="project-18" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <div class="col-lg-8">                           
+                <video width="640" height="480" controls>
+                    <source src="video/actividad-18.mp4" type="video/mp4" loop autoplay >
+                    <source src="movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div> <!-- end of col -->
+            <div class="col-lg-4">
+                <h3>Testimonio #2</h3>
+                <hr class="line-heading">
+                <h6>Pastoral de la Niñez en Desamparo</h6>                     
+                 <a class="btn-outline-reg mfp-close as-button" href="#projects">Regresar</a> 
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox Video Spot -->
     <!-- end of project lightboxes -->
 
 
@@ -947,7 +1071,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
                     <div class="image-container">
-                        <img class="img-fluid" src="images/diagrama.jpg" alt="alternative">
+                        <img class="img-fluid" src="images/diagrama.png" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -959,7 +1083,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image-wrapper -->
                         <p class="p-large">Profa: Ana Regina Rubio de Castillo</p>
                         <p class="job-title">Presidente</p>
@@ -969,7 +1093,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Licda. Aracely Briones de Macz</p>
                         <p class="job-title">Vicepresidente</p>
@@ -980,7 +1104,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/usermale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/usermale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Profe: Ely Ramiro Sierra Pereira</p>
                         <p class="job-title">Secretario</p>
@@ -990,7 +1114,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Licda. Isabel Cristina Lobos</p>
                         <p class="job-title">Tesorera</p>
@@ -1000,7 +1124,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Karla Regina de Santaluce</p>
                         <p class="job-title">Vocal I</p>
@@ -1010,7 +1134,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Hna Inés Sánchez Rendón</p>
                         <p class="job-title">Vocal II</p>
@@ -1020,7 +1144,7 @@
                     <!-- Team Member -->
                     <div class="team-member">
                         <div class="image-wrapper">
-                            <img class="img-fluid" src="images/userfemale.jpg" alt="alternative">
+                            <img class="img-fluid" src="images/userfemale.png" alt="alternative">
                         </div> <!-- end of image wrapper -->
                         <p class="p-large">Hna. Susana Padilla</p>
                         <p class="job-title">Vocal III</p>

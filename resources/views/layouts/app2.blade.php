@@ -92,7 +92,7 @@
             </ul>
             <span class="nav-item social-icons">
                 <span class="fa-stack">
-                    <a href="https://www.facebook.com/AlcanzandoEstrellasASAES/reviews">
+                    <a href="https://www.facebook.com/ASAES2021">
                         <span class="hexagon"></span>
                         <i class="fab fa-facebook-f fa-stack-1x"></i>
                     </a>
@@ -115,33 +115,7 @@
                         <h4>Alcanzando Estrellas</h4>
                         <p class="white">.</p>
                     </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <ul class="list-unstyled li-space-lg white">
-                            <li>
-                                <a class="white" href="#your-link"></a>
-                            </li>
-                            <li>
-                                <a class="white" href="terms-conditions.html"></a>
-                            </li>
-                            <li>
-                                <a class="white" href="privacy-policy.html"></a>
-                            </li>
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
-                <div class="col-md-2">
-                    <div class="text-container">
-                        <ul class="list-unstyled li-space-lg">
-
-                        </ul>
-                    </div> <!-- end of text-container -->
-                </div> <!-- end of col -->
+                </div> <!-- end of col -->                
             </div> <!-- end of row -->
         </div> <!-- end of container -->
     </div> <!-- end of footer -->  
@@ -153,7 +127,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <p class="p-small">Copyright © 2021 <a href="/">ASAES</a></p>
+                    <p>Desarrollo: Primer Grupo de Seminario, UMG, Coban AV, Guatemala</p>
+                    <p class="p-small">Copyright © 2021 <a href="/">ASAES</a></p>                    
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -169,8 +144,6 @@
     <!-- end of copyright -->
     
                         
-
-
         
     <!-- Scripts -->
     <script src="{{asset('js/jquery.min.js')}}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
