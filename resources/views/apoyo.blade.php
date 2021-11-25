@@ -15,7 +15,7 @@
 				<div class="cn-slide" id="slide-main">
 					<h2>Apoyanos de corazon</h2>
 					<nav>
-						<a href="#slide-1">Apoyo Economico</a>							
+						<a href="#slide-1">Apoyo Económico</a>							
 						<a href="#slide-2">Becas</a>						
 						<a href="#slide-3">Objetos</a>
 						<a href="#slide-4">Prestacion de servicios</a>
@@ -29,11 +29,11 @@
 					<h2>Apoyanos economicamente</h2>
 					<a href="#slide-main" class="cn-back">Back</a>
 					<nav>
-						<a href="#slide-1-1">Una Sola donacion</a>							
-						<a href="#slide-1-2">Aporte mensual o anual</a>
-						<a href="#slide-1-3">Publicidad para la organizacion</a>
+						<a href="#slide-1-1">Una Sola Donación</a>							
+						<a href="#slide-1-2">Aporte Mensual o Anual</a>
+						<a href="#slide-1-3">Publicidad para la Organización</a>
 						<a href="#slide-1-4">Herencia</a>
-						<a href="#slide-1-5">Apadrinado de niños</a>
+						<a href="#slide-1-5">Apadrinado de Niños</a>
 					</nav>
 				</div>
 				
@@ -41,7 +41,7 @@
 					<h2>Una sola donacion</h2>
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
-						<p>Puede realizar un deposito a la cuenta <b>30-4018604-0</b> a nombre de <b>Asociacion Alcanzando Estrellas</b> en <b>Banco Agromercantil</b></p>
+						<p>Puede realizar un deposito a la cuenta <br>30-4018604-0</br> a nombre de: <br>Asociacion Alcanzando Estrellas</br> en: <br>Banco Agromercantil</br></p>
 						<a class="btn-solid-lg page-scroll" href="/registrodonacion">Realizar Donación</a>
 					</div>
 					
@@ -52,7 +52,8 @@
 					<h2>Aporte Mensual o anual</h2>
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
-						<p>puede aportar mensual o anualmente xd </p>
+						<p>Puede elegir en realizar una donación de manera Mensual o de manera Anual, realizando un deposito a la cuenta <br>30-4018604-0</br> a nombre de: <br>Asociacion Alcanzando Estrellas</br> en: <br>Banco Agromercantil</br></p>
+						<a class="btn-solid-lg page-scroll" href="/registrodonacion">Realizar Donación</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -61,7 +62,8 @@
 					<h2>Publicidad para la organizacion</h2>
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
-						<p>Financiando la impresión de trifoliares o afiches, spots radiales sobre la problemática de la asociación o de la población objetivo, promocionando alguna actividad especifica.</p>
+						<p>Financiando la impresión de trifoliares o afiches, spots radiales sobre la problemática de la asociación o de la población objetivo, promocionando alguna actividad especifica. Puede comunicarse con nosotros, en nuestro formulario de contacto, describiendo su motivo de aportación</p>						
+						<a class="btn-solid-lg page-scroll" href="/formulario">Aportar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -70,7 +72,8 @@
 					<h2>Herencia</h2>
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
-						<p>Herencia</p>
+						<p>La donación por herencia es la posibilidad, mediante una donación en vida se traspasan bienes propios a la Asociación.</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Donar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -79,7 +82,10 @@
 					<h2>Apadrinado de niños</h2>
 					<a href="#slide-1" class="cn-back">Regresar</a>
 					<div class="cn-content">
-						<p>Apadrina a un niño</p>
+						<p>Gracias al apadrinamiento muchos niños y niñas pueden dejar el trabajo en el campo para disfrutar de su infancia e ir a la escuela y, así poder acceder a un trabajo y un futuro mejor cuando sean mayores.<br>Puede ponerse en contacto con la organización o puede realizar una donación, realizando un deposito a la cuenta <br>30-4018604-0</br> a nombre de: <br>Asociacion Alcanzando Estrellas</br> en: <br>Banco Agromercantil</br></br></p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Donar</a>
+
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -98,7 +104,9 @@
 					<h2>Becas</h2>
 					<a href="#slide-2" class="cn-back">Back</a>
 					<div class="cn-content">
-						<p>Financiando cursos que ayuden al crecimiento intelectual y profesional de las niñas, niños y adolescentes como por ejemplo cursos de (mecanografía. computación, inglés, cursos en INTECAP, etc.)</p>
+						<p>Las becas escolares, transferencias condicionadas a la asistencia y bonos, ayudan a garantizar la permanencia escolar, la reducción de trabajo infantil, embarazos en adolescentes.<br>Apoya a un niño, contactando a la Asociación</br>o bien realizar una donación, realizando un deposito a la cuenta <br>30-4018604-0</br> a nombre de: <br>Asociacion Alcanzando Estrellas</br> en: <br>Banco Agromercantil</br></p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Donar</a></p>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -122,6 +130,7 @@
 					<a href="#slide-3" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Materiales que los niños puedan usar en sus clases de apoyo y reforzamiento (Cuadernos, Crayones, Lápices etc).</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -131,6 +140,7 @@
 					<a href="#slide-3" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Materiales que los niños puedan usar en sus clases de apoyo y reforzamiento (Cuadernos, Crayones, Lápices etc).</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -140,6 +150,7 @@
 					<a href="#slide-3" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Frijol, Incaparina, leche o atoles, Alimentos que ayuden al sano crecimiento de las niñas, niños y adolescentes. </p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -148,6 +159,7 @@
 					<a href="#slide-3" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Donacion de Mobiliario y Equipo (Materiales de oficina, Materiales de aprendizaje) etc. </p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -158,6 +170,7 @@
 					<a href="#slide-main" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Ayudando a la asociación con asuntos profesionales en su población: (Abogado, Psicólogo, Medico, Etc.)</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -168,28 +181,10 @@
 					<h2>Inmuebles</h2>
 					<a href="#slide-main" class="cn-back">Back</a>
 					<nav>
-						<a href="#slide-5-1">Casas</a>							
-						<a href="#slide-5-2">Terrenos</a>
+						<a href="/formulario">Casas</a>							
+						<a href="/formulario"Terrenos</a>
 					</nav>
-				</div>
-				
-				<div class="cn-slide" id="slide-5-1">
-					<h2>Casas</h2>
-					<a href="#slide-5" class="cn-back">Back</a>
-					<div class="cn-content">
-						<p>Donacion de un domicilio...</p>
-					</div>
-					<span class="cn-note">Keep clicked to show image</span>
-				</div>
-				
-				<div class="cn-slide" id="slide-5-2">
-					<h2>Terrenos</h2>
-					<a href="#slide-5" class="cn-back">Back</a>
-					<div class="cn-content">
-						<p>Donacion de un terreno...</p>
-					</div>
-					<span class="cn-note">Keep clicked to show image</span>
-				</div>
+				</div>								
 				
 				<!-- Slide 5 and Sub-slides VOluntariado-->
 				<div class="cn-slide cn-slide-sub" id="slide-6">
@@ -208,15 +203,17 @@
 					<a href="#slide-6" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Participacion en actividades de recaudacion de fondos</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
 				
 				<div class="cn-slide" id="slide-6-2">
-					<h2>Apoyo y reforzamiento escolar</h2>
+					<h2>Apoyo y reforzamiento escolar</h2>					
 					<a href="#slide-6" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Apoyo y reforzamiento escolar</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -226,6 +223,7 @@
 					<a href="#slide-6" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Participacion en actividades deportivas y de recreacion</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>
@@ -235,6 +233,7 @@
 					<a href="#slide-6" class="cn-back">Back</a>
 					<div class="cn-content">
 						<p>Visitas escolares</p>
+						<a class="btn-solid-lg page-scroll" href="/formulario">Contactar</a>
 					</div>
 					<span class="cn-note">Keep clicked to show image</span>
 				</div>

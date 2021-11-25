@@ -15,27 +15,36 @@
     <!-- end of header -->
 
     <div class="inner-sec-layer">                   
-                    <div class="row middle-grids">
-                        <div class="col-lg-6 col-md-6 service-in text-center">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="fa fa-desktop mb-4"></span>
-                                    <h5 class="card-title text-uppercase">Mision</h5>
-                                    <p class="card-text">Proveemos a nuestros participantes y cooperantes servicios de excelencia, que contribuyan al desarrollo integral de las familias participantes para que sean capaces de mejorar su calidad de vida.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-6 col-md-6 service-in text-center ">
-                            <div class="card">
-                                <div class="card-body">
-                                    <span class="fa fa-desktop mb-4"></span>
-                                    <h5 class="card-title text-uppercase">Vision</h5>
-                                    <p class="card-text">Ser una organización con sede en Cobán, Alta Verapaz, sostenible e integra; impulsando proyectos en beneficio de la niñez y adolescencia, con calidad humana, en constante mejoramiento; reconocida por la excelencia y aptitud de servicio, que inciden en el cambio de vida de las personas más vulnerables.</p>
-                                </div>
-                            </div>
-                        </div>                  
-                    </div>
-                </div>
+      <div class="row middle-grids">
+        <div class="col-lg-6 col-md-6 service-in text-center">
+          <div class="card">
+            <div class="card-body">
+              <span class="fa fa-desktop mb-4"></span>
+                <h5 class="card-title text-uppercase">Mision</h5>
+                <p class="card-text">Proveemos a nuestros participantes y cooperantes servicios de excelencia, que contribuyan al desarrollo integral de las familias beneficiarias para que sean capaces de mejorar su calidad de vida.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 service-in text-center ">
+            <div class="card">
+              <div class="card-body">
+                <span class="fa fa-desktop mb-4"></span>
+                <h5 class="card-title text-uppercase">Vision</h5>
+                <p class="card-text">Ser una organización con sede en Cobán, Alta Verapaz, sostenible e integra; impulsando proyectos en beneficio de la niñez y adolescencia, con calidad humana, en constante mejoramiento; reconocida por la excelencia y aptitud de servicio, que inciden en el cambio de vida de las personas más vulnerables.</p>
+              </div>
+            </div>
+        </div>  
+        <div class="col-lg-6 col-md-6 service-in text-center ">
+            <div class="card">
+              <div class="card-body">
+                <span class="fa fa-desktop mb-4"></span>
+                <h5 class="card-title text-uppercase">Objetivo General</h5>
+                <p class="card-text">Promover y apoyar el desarrollo integral de la niñez y adolescencia de las familias en pobreza y extrema pobreza en un clima de interrelación afectiva y formación para la vida</p>
+              </div>
+            </div>
+        </div>                  
+      </div>
+    </div>              
 
 
     <!-- historia-->
